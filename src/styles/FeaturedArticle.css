@@ -1,10 +1,7 @@
-.featured-article-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  gap:10px
+.article-card.featured-article .article-image-container {
+background-position: center center;
+}
+
+.featured-article {
+    min-height: 30%;
 }
