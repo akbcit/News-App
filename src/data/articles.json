@@ -1,134 +1,170 @@
 [
     {
         "image_path": "images/image_0.jpg",
-        "image_desc": "Image for article titled 'Mysteries of the Deep Ocean'",
-        "article_category": "Marine Biology",
-        "article_headline": "Journey to the Abyss: Unveiling the Astonishing Secrets of the Deep Ocean",
-        "article_excerpt": "Embark on an expedition into the uncharted abyssal realms, where enigmatic creatures and mysteries beyond imagination await discovery. Explore the secrets of the deep ocean, a realm that continues to astonish scientists and explorers.",
+        "image_desc": "Image for article titled 'Harnessing the Power of React for Frontend Excellence'",
+        "article_category": "Frontend Development",
+        "article_headline": "Harnessing the Power of React for Frontend Excellence",
+        "article_excerpt": "Explore why React stands out in frontend development with its component-based architecture, enabling developers to build scalable and maintainable user interfaces.",
         "article_details": {
-            "article_author": "By Dr. Rachel Carson",
+            "article_author": "By Aditya Kumar",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Oceanography", "Biodiversity"]
+        "article_tags": [
+            "React",
+            "Frontend",
+            "JavaScript"
+        ]
     },
     {
         "image_path": "images/image_1.jpg",
-        "image_desc": "Image for article titled 'The Evolution of Galaxies'",
-        "article_category": "Astronomy",
-        "article_headline": "Galactic Odyssey: Unraveling the Epic Evolution of the Cosmos",
-        "article_excerpt": "Embark on an awe-inspiring journey through space and time as we unveil the story of galaxy formation and evolution. Join us in unraveling the mysteries of the cosmos, where galaxies emerge and transform, shaping our universe.",
+        "image_desc": "Image for article titled 'Node.js: The Backbone of Modern Backend Development'",
+        "article_category": "Backend Development",
+        "article_headline": "Node.js: The Backbone of Modern Backend Development",
+        "article_excerpt": "Discover how Node.js revolutionizes backend development with its non-blocking, event-driven architecture, making it ideal for building efficient, scalable applications.",
         "article_details": {
-            "article_author": "By Dr. Carl Sagan",
+            "article_author": "By Kenny Qiu",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Cosmology", "Galaxies"]
+        "article_tags": [
+            "Node.js",
+            "Backend",
+            "Server"
+        ]
     },
     {
         "image_path": "images/image_2.jpg",
-        "image_desc": "Image for article titled 'Secrets of the Rainforest Canopy'",
-        "article_category": "Ecology",
-        "article_headline": "Into the Canopy: Revealing the Hidden Wonders of the Rainforest",
-        "article_excerpt": "Venture into the lush canopy of the rainforest, where a world teeming with life and secrets awaits. Discover the astounding biodiversity and unique adaptations in this magnificent ecosystem high above the forest floor.",
+        "image_desc": "Image for article titled 'Mastering CSS: Tips and Tricks for Responsive Design'",
+        "article_category": "Web Design",
+        "article_headline": "Mastering CSS: Tips and Tricks for Responsive Design",
+        "article_excerpt": "Uncover advanced CSS techniques for creating visually appealing, responsive designs. Learn how to leverage CSS3 features for dynamic, fluid layouts.",
         "article_details": {
-            "article_author": "By Jane Goodall",
+            "article_author": "By Carissa Ward",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Rainforest", "Biodiversity"]
+        "article_tags": [
+            "CSS",
+            "Web Design",
+            "Responsive"
+        ]
     },
     {
         "image_path": "images/image_3.jpg",
-        "image_desc": "Image for article titled 'Climate Change and Glacial Retreat'",
-        "article_category": "Environmental Science",
-        "article_headline": "Melting Worlds: The Terrifying Consequences of Climate Change on Glaciers",
-        "article_excerpt": "Dive into the heart of our planet's icy giants as we uncover the consequences of climate change. Glaciers retreat, reshaping landscapes and endangering ecosystems. Explore the reality of glacial melt and its impact.",
+        "image_desc": "Image for article titled 'Elevating Web Experiences with Angular'",
+        "article_category": "Frontend Development",
+        "article_headline": "Elevating Web Experiences with Angular",
+        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "article_details": {
-            "article_author": "By Greta Thunberg",
+            "article_author": "By Placeholder Author",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Climate Change", "Glaciology"]
+        "article_tags": [
+            "Angular",
+            "Web Framework"
+        ]
     },
     {
         "image_path": "images/image_4.jpg",
-        "image_desc": "Image for article titled 'Breakthroughs in Renewable Energy'",
-        "article_category": "Technology",
-        "article_headline": "Revolutionizing Our World: Remarkable Breakthroughs in Sustainable Energy",
-        "article_excerpt": "Embark on a thrilling journey through developments in renewable energy that promise to reshape our future. From solar and wind power to energy storage, discover the technologies driving sustainability.",
+        "image_desc": "Image for article titled 'Vue.js: Crafting Interactive UIs with Ease'",
+        "article_category": "Frontend Development",
+        "article_headline": "Vue.js: Crafting Interactive UIs with Ease",
+        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "article_details": {
-            "article_author": "By Elon Musk",
+            "article_author": "By Placeholder Author",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Sustainability", "Innovation"]
+        "article_tags": [
+            "Vue.js",
+            "JavaScript"
+        ]
     },
     {
         "image_path": "images/image_5.jpg",
-        "image_desc": "Image for article titled 'The Human Brain: Unraveling Its Mysteries'",
-        "article_category": "Neuroscience",
-        "article_headline": "The Mind Unleashed: Delving Deeper into the Enigmatic Realm of the Human Brain",
-        "article_excerpt": "Embark on an exploration of the human brain's intricacies, unlocking its mysteries. Delve into the neuroscientific frontier, revealing the brain's capabilities and implications for consciousness.",
+        "image_desc": "Image for article titled 'Simplifying Data Management with MongoDB'",
+        "article_category": "Database Technology",
+        "article_headline": "Simplifying Data Management with MongoDB",
+        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "article_details": {
-            "article_author": "By Oliver Sacks",
+            "article_author": "By Placeholder Author",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Brain", "Cognitive Science"]
+        "article_tags": [
+            "MongoDB",
+            "NoSQL"
+        ]
     },
     {
         "image_path": "images/image_6.jpg",
-        "image_desc": "Image for article titled 'Advancements in Genetic Engineering'",
-        "article_category": "Genetics",
-        "article_headline": "Genetic Revolution: Unveiling the Astounding Frontiers of Genetic Engineering",
-        "article_excerpt": "Join us in a journey into the future of genetic engineering, where possibilities and ethical dilemmas collide. Discover advancements in gene editing and synthetic biology.",
+        "image_desc": "Image for article titled 'Building Dynamic Websites with jQuery'",
+        "article_category": "Web Development",
+        "article_headline": "Building Dynamic Websites with jQuery",
+        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "article_details": {
-            "article_author": "By Dr. Jennifer Doudna",
+            "article_author": "By Placeholder Author",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Genetics", "Biotechnology"]
+        "article_tags": [
+            "jQuery",
+            "JavaScript"
+        ]
     },
     {
         "image_path": "images/image_7.jpg",
-        "image_desc": "Image for article titled 'The Role of Microbes in Our Ecosystem'",
-        "article_category": "Microbiology",
-        "article_headline": "Microscopic Marvels: Illuminating the Profound Influence of Microbes on Our Planet's Fate",
-        "article_excerpt": "Dive into the unseen world of microbes and witness their web of life shaping ecosystems. Explore their influence on the environment and health.",
+        "image_desc": "Image for article titled 'Responsive Design Magic with SASS'",
+        "article_category": "Web Design",
+        "article_headline": "Responsive Design Magic with SASS",
+        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "article_details": {
-            "article_author": "By Dr. Lynn Margulis",
+            "article_author": "By Placeholder Author",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Microbes", "Ecology"]
+        "article_tags": [
+            "SASS",
+            "CSS Preprocessor"
+        ]
     },
     {
         "image_path": "images/image_8.jpg",
-        "image_desc": "Image for article titled 'Exploring Mars: The Next Frontier'",
-        "article_category": "Space Exploration",
-        "article_headline": "Mars Unveiled: Unearthing the Pioneering Adventures on the Crimson World",
-        "article_excerpt": "Embark on an odyssey to the Martian frontier, where missions redefine our understanding of Mars. From rovers to human colonization, explore the latest adventures.",
+        "image_desc": "Image for article titled 'HTML5: The Backbone of Modern Web Markup'",
+        "article_category": "Web Development",
+        "article_headline": "HTML5: The Backbone of Modern Web Markup",
+        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "article_details": {
-            "article_author": "By Dr. Robert Zubrin",
+            "article_author": "By Placeholder Author",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Mars", "Space Travel"]
+        "article_tags": [
+            "HTML5",
+            "Markup Language"
+        ]
     },
     {
         "image_path": "images/image_9.jpg",
-        "image_desc": "Image for article titled 'Understanding Earth's Changing Climate'",
-        "article_category": "Climate Science",
-        "article_headline": "Earth in Turmoil: Navigating the Vast Tapestry of Global Climate Change",
-        "article_excerpt": "Embark on a journey through the turbulent world of climate change, unraveling its causes and consequences. Explore the multifaceted aspects of this global crisis.",
+        "image_desc": "Image for article titled 'Unlocking Advanced Features in CSS3'",
+        "article_category": "Web Design",
+        "article_headline": "Unlocking Advanced Features in CSS3",
+        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "article_details": {
-            "article_author": "By Dr. James Hansen",
+            "article_author": "By Placeholder Author",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Climate Change", "Global Warming"]
+        "article_tags": [
+            "CSS3",
+            "Styling"
+        ]
     },
     {
         "image_path": "images/image_10.jpg",
-        "image_desc": "Image for article titled 'The Wonders of the Animal Migration'",
-        "article_category": "Zoology",
-        "article_headline": "Epic Odysseys: Witnessing the Astonishing Tales of Global Animal Migration",
-        "article_excerpt": "Prepare to be captivated by the extraordinary journeys of Earth's most remarkable migratory creatures. Follow their astonishing tales, from the Arctic tundra to the depths of the oceans.",
+        "image_desc": "Image for article titled 'The Future of Web Apps with Progressive Web Apps (PWA)'",
+        "article_category": "Web Development",
+        "article_headline": "The Future of Web Apps with Progressive Web Apps (PWA)",
+        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "article_details": {
-            "article_author": "By Sir David Attenborough",
+            "article_author": "By Placeholder Author",
             "article_date": "Published On: 2024-01-15"
         },
-        "article_tags": ["Wildlife", "Migration"]
+        "article_tags": [
+            "PWA",
+            "Web Apps"
+        ]
     }
 ]
