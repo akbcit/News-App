@@ -1,6 +1,6 @@
-import "../styles/NewsCard.css";
+import "../styles/ArticleCard.css";
 
-function newsCard({newsItem}){
+function ArticleCard({article}){
 
     return(
         <div className="news-card">
@@ -14,4 +14,4 @@ function newsCard({newsItem}){
     )
 }
 
-export default newsCard;
+export default ArticleCard;
