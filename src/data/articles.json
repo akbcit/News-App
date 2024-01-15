@@ -1,0 +1,134 @@
+[
+    {
+        "image_path": "images/image_0.jpg",
+        "image_desc": "Image for article titled 'Mysteries of the Deep Ocean'",
+        "article_category": "Marine Biology",
+        "article_headline": "Journey to the Abyss: Unveiling the Astonishing Secrets of the Deep Ocean",
+        "article_excerpt": "Embark on an expedition into the uncharted abyssal realms, where enigmatic creatures and mysteries beyond imagination await discovery. Explore the secrets of the deep ocean, a realm that continues to astonish scientists and explorers.",
+        "article_details": {
+            "article_author": "By Dr. Rachel Carson",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Oceanography", "Biodiversity"]
+    },
+    {
+        "image_path": "images/image_1.jpg",
+        "image_desc": "Image for article titled 'The Evolution of Galaxies'",
+        "article_category": "Astronomy",
+        "article_headline": "Galactic Odyssey: Unraveling the Epic Evolution of the Cosmos",
+        "article_excerpt": "Embark on an awe-inspiring journey through space and time as we unveil the story of galaxy formation and evolution. Join us in unraveling the mysteries of the cosmos, where galaxies emerge and transform, shaping our universe.",
+        "article_details": {
+            "article_author": "By Dr. Carl Sagan",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Cosmology", "Galaxies"]
+    },
+    {
+        "image_path": "images/image_2.jpg",
+        "image_desc": "Image for article titled 'Secrets of the Rainforest Canopy'",
+        "article_category": "Ecology",
+        "article_headline": "Into the Canopy: Revealing the Hidden Wonders of the Rainforest",
+        "article_excerpt": "Venture into the lush canopy of the rainforest, where a world teeming with life and secrets awaits. Discover the astounding biodiversity and unique adaptations in this magnificent ecosystem high above the forest floor.",
+        "article_details": {
+            "article_author": "By Jane Goodall",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Rainforest", "Biodiversity"]
+    },
+    {
+        "image_path": "images/image_3.jpg",
+        "image_desc": "Image for article titled 'Climate Change and Glacial Retreat'",
+        "article_category": "Environmental Science",
+        "article_headline": "Melting Worlds: The Terrifying Consequences of Climate Change on Glaciers",
+        "article_excerpt": "Dive into the heart of our planet's icy giants as we uncover the consequences of climate change. Glaciers retreat, reshaping landscapes and endangering ecosystems. Explore the reality of glacial melt and its impact.",
+        "article_details": {
+            "article_author": "By Greta Thunberg",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Climate Change", "Glaciology"]
+    },
+    {
+        "image_path": "images/image_4.jpg",
+        "image_desc": "Image for article titled 'Breakthroughs in Renewable Energy'",
+        "article_category": "Technology",
+        "article_headline": "Revolutionizing Our World: Remarkable Breakthroughs in Sustainable Energy",
+        "article_excerpt": "Embark on a thrilling journey through developments in renewable energy that promise to reshape our future. From solar and wind power to energy storage, discover the technologies driving sustainability.",
+        "article_details": {
+            "article_author": "By Elon Musk",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Sustainability", "Innovation"]
+    },
+    {
+        "image_path": "images/image_5.jpg",
+        "image_desc": "Image for article titled 'The Human Brain: Unraveling Its Mysteries'",
+        "article_category": "Neuroscience",
+        "article_headline": "The Mind Unleashed: Delving Deeper into the Enigmatic Realm of the Human Brain",
+        "article_excerpt": "Embark on an exploration of the human brain's intricacies, unlocking its mysteries. Delve into the neuroscientific frontier, revealing the brain's capabilities and implications for consciousness.",
+        "article_details": {
+            "article_author": "By Oliver Sacks",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Brain", "Cognitive Science"]
+    },
+    {
+        "image_path": "images/image_6.jpg",
+        "image_desc": "Image for article titled 'Advancements in Genetic Engineering'",
+        "article_category": "Genetics",
+        "article_headline": "Genetic Revolution: Unveiling the Astounding Frontiers of Genetic Engineering",
+        "article_excerpt": "Join us in a journey into the future of genetic engineering, where possibilities and ethical dilemmas collide. Discover advancements in gene editing and synthetic biology.",
+        "article_details": {
+            "article_author": "By Dr. Jennifer Doudna",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Genetics", "Biotechnology"]
+    },
+    {
+        "image_path": "images/image_7.jpg",
+        "image_desc": "Image for article titled 'The Role of Microbes in Our Ecosystem'",
+        "article_category": "Microbiology",
+        "article_headline": "Microscopic Marvels: Illuminating the Profound Influence of Microbes on Our Planet's Fate",
+        "article_excerpt": "Dive into the unseen world of microbes and witness their web of life shaping ecosystems. Explore their influence on the environment and health.",
+        "article_details": {
+            "article_author": "By Dr. Lynn Margulis",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Microbes", "Ecology"]
+    },
+    {
+        "image_path": "images/image_8.jpg",
+        "image_desc": "Image for article titled 'Exploring Mars: The Next Frontier'",
+        "article_category": "Space Exploration",
+        "article_headline": "Mars Unveiled: Unearthing the Pioneering Adventures on the Crimson World",
+        "article_excerpt": "Embark on an odyssey to the Martian frontier, where missions redefine our understanding of Mars. From rovers to human colonization, explore the latest adventures.",
+        "article_details": {
+            "article_author": "By Dr. Robert Zubrin",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Mars", "Space Travel"]
+    },
+    {
+        "image_path": "images/image_9.jpg",
+        "image_desc": "Image for article titled 'Understanding Earth's Changing Climate'",
+        "article_category": "Climate Science",
+        "article_headline": "Earth in Turmoil: Navigating the Vast Tapestry of Global Climate Change",
+        "article_excerpt": "Embark on a journey through the turbulent world of climate change, unraveling its causes and consequences. Explore the multifaceted aspects of this global crisis.",
+        "article_details": {
+            "article_author": "By Dr. James Hansen",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Climate Change", "Global Warming"]
+    },
+    {
+        "image_path": "images/image_10.jpg",
+        "image_desc": "Image for article titled 'The Wonders of the Animal Migration'",
+        "article_category": "Zoology",
+        "article_headline": "Epic Odysseys: Witnessing the Astonishing Tales of Global Animal Migration",
+        "article_excerpt": "Prepare to be captivated by the extraordinary journeys of Earth's most remarkable migratory creatures. Follow their astonishing tales, from the Arctic tundra to the depths of the oceans.",
+        "article_details": {
+            "article_author": "By Sir David Attenborough",
+            "article_date": "Published On: 2024-01-15"
+        },
+        "article_tags": ["Wildlife", "Migration"]
+    }
+]

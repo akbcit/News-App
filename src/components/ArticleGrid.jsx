@@ -1,10 +1,14 @@
+/* eslint-disable react/prop-types */
 import "../styles/ArticleGrid.css";
 import ArticleCard from "./ArticleCard";
 
-function ArticleGrid({newsData}){
+function ArticleGrid({articles}){
     
     return(
-        <div className="news-grid">
+        <div className="article-grid">
+            {articles.map((article,index)=>{
+                return(<ArticleCard key = {`article-${index}`} article={article} articleNum={index}/>)
+            })}
         </div>
     )
 }
