@@ -4,6 +4,8 @@ import FeaturedArticle from "../components/FeaturedArticle";
 import articles from "../data/articles.json";
 import selectFeaturedArticle from "../utils/selectFeaturedArticle";
 import HeaderNav from "../components/HeaderNav";
+import SideBar from "../components/SideBar";
+import Footer from "../components/Footer";
 
 function PageHome() {
   // select one featured article and get rest of the articles randomly
@@ -13,10 +15,12 @@ function PageHome() {
     <>
     <HeaderNav/>
     <main>
+    <FeaturedArticle article={featuredArticle} />
       <section id="articles-section">
-        <FeaturedArticle article={featuredArticle} />
         <ArticleGrid articles={otherArticles} />
+        <SideBar/>
       </section>
+      <Footer/>
     </main>
     </>
   );
