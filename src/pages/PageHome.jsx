@@ -9,10 +9,12 @@ function PageHome() {
   const { featuredArticle, otherArticles } = selectFeaturedArticle(articles);
 
   return (
-    <section id="articles-section">
-      <FeaturedArticle article={featuredArticle} />
-      <ArticleGrid articles={otherArticles} />
-    </section>
+    <main>
+      <section id="articles-section">
+        <FeaturedArticle article={featuredArticle} />
+        <ArticleGrid articles={otherArticles} />
+      </section>
+    </main>
   );
 }
 
