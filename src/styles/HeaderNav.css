@@ -1,120 +1,145 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #007aff;
-    height: 4rem;
-    transition: height 0.4s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #007aff;
+  height: 6rem;
+  transition: all 0.4s ease;
+  box-shadow: 2px 1px 15px 0px #8f8f8f;
+  z-index: 2;
 }
 
 header.expanded {
-    height: 13.5rem;
+  height: 13.5rem;
 }
 
 .hamburger-menu {
-    width: 2.75rem;
-    height: 2.5rem;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
+  width: 2.75rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
 .bar {
-    display: block;
-    width: 2rem;
-    height: 0.25rem;
-    background-color: white;
-    margin: 0.3755rem auto;
-    transition: 0.4s;
+  display: block;
+  width: 2rem;
+  height: 0.25rem;
+  background-color: white;
+  margin: 0.3755rem auto;
+  transition: 0.4s;
 }
 
 #bar1 {
-    margin-top: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 .hamburger-menu.open #bar2 {
-    opacity: 0;
+  opacity: 0;
 }
 
 .hamburger-menu.open #bar1 {
-    transform: rotate(-45deg) translate(-0.375rem, 0.5rem);
+  transform: rotate(-45deg) translate(-0.375rem, 0.5rem);
 }
 
 .hamburger-menu.open #bar3 {
-    transform: rotate(45deg) translate(-0.375rem, -0.5rem);
+  transform: rotate(45deg) translate(-0.375rem, -0.5rem);
 }
 
 .logo {
-    margin: 0.5rem;
-    padding-right: 3rem;
-    color: white;
+  margin: 0.5rem;
+  padding-right: 3rem;
+  color: white;
 }
 
 .logo.hide {
-    display: none;
+  display: none;
 }
 
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 #main-navigation.show {
-    width: 100%;
-    background-color: #007aff;
+  width: 100%;
+  background-color: #007aff;
 }
 
 #main-navigation ul {
-    display: none;
+  display: none;
 }
 
 #main-navigation.show ul {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding-left: 0;
-    padding-right: 3rem;
-    list-style: none;
-    color: white;
-    margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 3rem;
+  list-style: none;
+  color: white;
+  margin-top: 3rem;
 }
 
 .main-navigation-a {
-    color: white;
+  color: white;
 }
 
 /* Hide the hamburger menu when screen width is greater than or equal to 960px */
 @media (min-width: 960px) {
-	.hamburger-menu {
-		display: none;
-	}
+  header {
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    max-width: 1280px;
+    transform: translateX(-50%);
+    transition: all 0.2s ease-out;
+  }
 
-	#main-navigation {
-		display: block; /* override the display: none; for larger screens */
-	}
+  header.with-border {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    box-shadow: -1px 6px 4px -2px rgba(0, 0, 0, 0.2);
+    transform: translateX(-50%) translateY(-20%);
+  }
 
-    #main-navigation ul {
-        display: flex;
-    }
+  header.hidden {
+    transform: translateX(-50%) translateY(-100%);
+  }
 
-    .main-navigation-li {
-        list-style: none;
-    }
+  .hamburger-menu {
+    display: none;
+  }
 
-    .main-navigation-a {
-        display: block;
-        padding: 0.25rem 1rem;
-        color: white;
-    }
+  #main-navigation {
+    display: block; /* override the display: none; for larger screens */
+  }
 
-    .main-navigation-li + li {
-        border-left: 1px solid white;
-    }
+  #main-navigation ul {
+    display: flex;
+  }
+
+  .main-navigation-li {
+    list-style: none;
+  }
+
+  .main-navigation-a {
+    display: block;
+    padding: 0.25rem 1rem;
+    color: white;
+  }
+
+  .main-navigation-li + li {
+    border-left: 1px solid white;
+  }
 }

@@ -5,7 +5,7 @@
   justify-content: flex-end;
   margin: 0;
   box-shadow: 2px 1px 15px 0px #8f8f8f;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
   overflow: hidden;
   height: 27rem;
   background-image: var(--articleBgImage);
@@ -44,7 +44,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-left: -16px;
+  margin-left: -20px;
 }
 
 .expand-icon {
