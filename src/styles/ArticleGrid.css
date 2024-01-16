@@ -1,8 +1,20 @@
 .article-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1;
     font-family: 'Roboto', sans-serif;
     column-gap: 25px;
     row-gap: 25px;
  }
+
+ @media (min-width: 960px) {
+    .article-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-family: 'Roboto', sans-serif;
+        column-gap: 25px;
+        row-gap: 25px;
+     }
+  }
   
+  
+
