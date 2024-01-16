@@ -1,0 +1,10 @@
+.side-bar{
+    min-width: 20rem;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 2px 1px 15px 0px #8f8f8f;
+    border-radius: 10px;
+}
