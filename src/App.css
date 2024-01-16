@@ -13,7 +13,5 @@ main{
 }
 
 @media (min-width: 960px) {
-  main{
-    margin-top: 6rem;
-  }
+ 
 }

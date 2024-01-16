@@ -8,6 +8,7 @@
   border-radius: 0 0 10px 10px;
   overflow: hidden;
   height: 27rem;
+  max-width: 100vw;
   background-image: var(--articleBgImage);
   background-position: center center;
   background-size: cover;
@@ -91,4 +92,10 @@
 .visible {
   opacity: 1;
   transition: height 0.5s linear;
+}
+
+@media (min-width: 960px) {
+  .featured-article {
+    height: 35rem;
+  }
 }
