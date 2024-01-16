@@ -11,16 +11,24 @@ header {
 }
 
 header.expanded {
-  height: 13.5rem;
+  align-items: flex-start;
+  z-index: 3;
 }
 
 .hamburger-menu {
   width: 2.75rem;
   height: 2.5rem;
-  background-color: transparent;
+  background-color: #007aff;
   border: none;
   cursor: pointer;
   padding: 0;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.hamburger-menu.open {
+  height: 10.5rem;
 }
 
 .bar {
@@ -33,7 +41,7 @@ header.expanded {
 }
 
 #bar1 {
-  margin-top: 1.25rem;
+  margin-top: 0.5rem;
 }
 
 .hamburger-menu.open #bar2 {
@@ -52,6 +60,7 @@ header.expanded {
   margin: 0.5rem;
   padding-right: 3rem;
   color: white;
+
 }
 
 .logo.hide {
@@ -86,15 +95,14 @@ header.expanded {
   padding-right: 3rem;
   list-style: none;
   color: white;
-  margin-top: 3rem;
 }
 
 .main-navigation-a {
   color: white;
 }
 
-/* Hide the hamburger menu when screen width is greater than or equal to 960px */
-@media (min-width: 960px) {
+/* Hide the hamburger menu when screen width is greater than or equal to 1024px */
+@media (min-width: 1024px) {
   header {
     margin-left: auto;
     margin-right: auto;
@@ -119,6 +127,10 @@ header.expanded {
 
   .hamburger-menu {
     display: none;
+  }
+
+  .logo img {
+    width: 22.5rem;
   }
 
   #main-navigation {

@@ -6,7 +6,7 @@
     row-gap: 25px;
  }
 
- @media (min-width: 960px) {
+ @media (min-width: 768px) {
     .article-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
