@@ -1,6 +1,7 @@
 import "../styles/PageHome.css";
 import ArticleGrid from "../components/ArticleGrid";
 import FeaturedArticle from "../components/FeaturedArticle";
+import HeaderNav from "../components/HeaderNav";
 import articles from "../data/articles.json";
 import selectFeaturedArticle from "../utils/selectFeaturedArticle";
 
@@ -10,6 +11,7 @@ function PageHome() {
 
   return (
     <section id="articles-section">
+      <HeaderNav />
       <FeaturedArticle article={featuredArticle} />
       <ArticleGrid articles={otherArticles} />
     </section>
