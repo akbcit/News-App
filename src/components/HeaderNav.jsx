@@ -41,7 +41,7 @@ const HeaderNav = () => {
         {/* end hamburger-menu-content */}
       </button>
       <a className={`logo ${isMenuOpen ? "hide" : ""}`} href="#0">
-        Logo.svg
+        <img src="images/logo.svg" alt="site-logo"></img>
       </a>
       <nav id="main-navigation" className={isMenuOpen ? "show" : ""}>
         <ul>
