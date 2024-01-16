@@ -5,8 +5,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0;
 }
 
 main{
   max-width: 1280px;
+}
+
+@media (min-width: 960px) {
+  main{
+    margin-top: 6rem;
+  }
 }
