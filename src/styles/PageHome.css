@@ -1,7 +1,14 @@
 #articles-section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap:25px;
 }
 
-
+/* Hide the hamburger menu when screen width is greater than or equal to 1024px */
+@media (min-width: 1024px) {
+    #articles-section{
+        display: flex;
+        flex-direction: row;
+        gap:25px;
+    }
+  }
