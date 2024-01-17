@@ -1,0 +1,157 @@
+[
+  {
+    "model_info": [
+      {
+        "id": 7166,
+        "noteb_name": "Apple MacBook Pro 14  M3 (US)",
+        "name": "Apple MacBook Pro 14"
+      }
+    ],
+    "config_id": "2418709446591973567",
+    "model_resources": {
+      "thumbnail": "https://noteb.com/res/img/models/thumb/t_4646_1.jpg",
+      "image_1": "https://noteb.com/res/img/models/4646_1.jpg",
+      "image_2": "https://noteb.com/res/img/models/4646_2.jpg",
+      "image_3": "https://noteb.com/res/img/models/4646_3.jpg",
+      "image_4": "https://noteb.com/res/img/models/4646_4.jpg",
+      "official_link": "https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-space-gray-apple-m3-chip-with-8-core-cpu-and-10-core-gpu-8gb-memory-512gb",
+      "launch_date": "2023-11-24",
+      "primary_model": "7166"
+    },
+    "display": {
+      "size": "14.2",
+      "horizontal_resolution": "3024",
+      "vertical_resolution": "1964"
+    },
+    "operating_system": "macOS  12.00",
+    "config_price": "1599"
+  },
+  {
+    "model_info": [
+      {
+        "id": 6524,
+        "noteb_name": "Asus Chromebook CX1101 1101 (US)",
+        "name": "Asus Chromebook CX1101"
+      }
+    ],
+    "config_id": "11723524387570999296",
+    "model_resources": {
+      "thumbnail": "https://noteb.com/res/img/models/thumb/t_4154_1.jpg",
+      "image_1": "https://noteb.com/res/img/models/4154_1.jpg",
+      "image_2": "https://noteb.com/res/img/models/4154_2.jpg",
+      "image_3": "https://noteb.com/res/img/models/4154_3.jpg",
+      "image_4": "https://noteb.com/res/img/models/4154_4.jpg",
+      "official_link": "https://www.asus.com/laptops/for-home/chromebook/asus-chromebook-cx1-cx1101/",
+      "launch_date": "2022-11-21",
+      "primary_model": "6524"
+    },
+    "display": {
+      "size": "11.6",
+      "horizontal_resolution": "1366",
+      "vertical_resolution": "768",
+      "type": "LED TN",
+      "sRGB": "0",
+      "touch": "no",
+      "other_info": ""
+    },
+    "operating_system": "Chrome OS  0.00",
+    "config_price": "285"
+  },
+  {
+    "model_info": [
+      {
+        "id": 7173,
+        "noteb_name": "Dell Inspiron 16 2-in-1 7635  7635 (US)",
+        "name": "Dell Inspiron 16 2-in-1 7635"
+      }
+    ],
+    "config_id": "18256149391627999232",
+    "model_resources": {
+      "thumbnail": "https://noteb.com/res/img/models/thumb/t_4712_1.jpg",
+      "image_1": "https://noteb.com/res/img/models/4712_1.jpg",
+      "image_2": "https://noteb.com/res/img/models/4712_2.jpg",
+      "image_3": "https://noteb.com/res/img/models/4712_3.jpg",
+      "image_4": "https://noteb.com/res/img/models/4712_4.jpg",
+      "launch_date": "2023-11-28",
+      "primary_model": "7173"
+    },
+    "display": {
+      "size": "16.0",
+      "horizontal_resolution": "1920",
+      "vertical_resolution": "1200",
+      "type": "LED IPS",
+      "sRGB": "100",
+      "touch": "no",
+      "other_info": null
+    },
+    "operating_system": "Windows Home 11.00",
+    "config_price": "1000",
+    "config_price_min": "990",
+    "config_price_max": "1010"
+  },
+  {
+    "model_info": [
+      {
+        "id": 5907,
+        "noteb_name": "Microsoft Surface Laptop 4 13.5  (US)",
+        "name": "Microsoft Surface Laptop 4 13.5 "
+      }
+    ],
+    "config_id": "11505504549454000128",
+    "model_resources": {
+      "thumbnail": "https://noteb.com/res/img/models/thumb/t_3412_1.jpg",
+      "image_1": "https://noteb.com/res/img/models/3412_1.jpg",
+      "image_2": "https://noteb.com/res/img/models/3412_2.jpg",
+      "image_3": "https://noteb.com/res/img/models/3412_3.jpg",
+      "image_4": "https://noteb.com/res/img/models/3412_4.jpg",
+      "launch_date": "2021-04-15",
+      "primary_model": "5907"
+    },
+    "display": {
+      "size": "13.5",
+      "horizontal_resolution": "2256",
+      "vertical_resolution": "1504",
+      "type": "LED IPS",
+      "sRGB": "100",
+      "touch": "no",
+      "other_info": ""
+    },
+    "operating_system": "Windows Home 10.00",
+    "config_price": "700",
+    "config_price_min": "693",
+    "config_price_max": "707"
+  },
+
+  {
+    "model_info": [
+      {
+        "id": 6048,
+        "noteb_name": "Samsung Galaxy Book 15 NP750TDA  NP750. (US)",
+        "name": "Samsung Galaxy Book 15 NP750TDA"
+      }
+    ],
+    "config_id": "15291111065130000384",
+    "model_resources": {
+      "thumbnail": "https://noteb.com/res/img/models/thumb/t_3813_1.jpg",
+      "image_1": "https://noteb.com/res/img/models/3813_1.jpg",
+      "image_2": "https://noteb.com/res/img/models/3813_2.jpg",
+      "image_3": "https://noteb.com/res/img/models/3813_3.jpg",
+      "image_4": "https://noteb.com/res/img/models/3813_4.jpg",
+      "launch_date": "2022-02-01",
+      "primary_model": "5830"
+    },
+    "display": {
+      "size": "15.6",
+      "horizontal_resolution": "1920",
+      "vertical_resolution": "1080",
+      "type": "LED IPS",
+      "sRGB": "80",
+      "touch": "no",
+      "other_info": ""
+    },
+    "operating_system": "Windows Home 11.00",
+    "config_price": "1000",
+    "config_price_min": "990",
+    "config_price_max": "1010"
+  }
+]
