@@ -9,6 +9,11 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "contributors": [
+    "Aditya",
+    "Carissa",
+    "Kenny"
+  ],
   "dependencies": {
     "axios": "^1.6.5",
     "react": "^18.2.0",
