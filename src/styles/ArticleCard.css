@@ -1,3 +1,5 @@
+@import "variables.css";
+
 .article-card {
   display: flex;
   flex-direction: column;
@@ -5,7 +7,7 @@
   margin: 0;
   padding: 0;
   gap: 10px;
-  box-shadow: 2px 1px 15px 0px #8f8f8f;
+  box-shadow: 2px 1px 15px 0px var(--box-shadow-color);
   padding: 10px;
   border-radius: 10px;
   max-width: 100vw;
@@ -27,7 +29,7 @@
 
 .article-category {
   margin-right: auto;
-  background-color: #007aff;
+  background-color: var(--primary-color);
   color: white;
   z-index: 1;
   font-weight: 600;
