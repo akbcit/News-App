@@ -105,6 +105,10 @@ header.expanded {
   color: white;
 }
 
+.main-navigation-a:hover {
+  color: black;
+}
+
 /* Hide the hamburger menu when screen width is greater than or equal to 1024px */
 @media (min-width: 1024px) {
   header {
