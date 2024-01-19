@@ -105,4 +105,23 @@
   .featured-article {
     height: 35rem;
   }
+
+  .featured-article-content .article-excerpt {
+    font-size: large;
+  }
 }
+
+@media (max-width: 700px) {
+  .featured-article-content .article-headline {
+    font-size: large;
+  }
+}
+
+@media (max-width: 400px) {
+  .featured-article-content.full {
+    height: 55%;
+  }
+}
+
+
+
