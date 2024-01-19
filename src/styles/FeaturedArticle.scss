@@ -12,7 +12,7 @@
   background-image: var(--articleBgImage);
   background-position: center center;
   background-size: cover;
-  color: white;
+  color: $secondary-color;
   transition: $base-transition;
   max-width: 100vw;
   min-width: 100%;
@@ -83,7 +83,7 @@
 }
 
 .featured-article-content .article-details {
-  color: white;
+  color: $secondary-color;
 }
 
 .invisible {
