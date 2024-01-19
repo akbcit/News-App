@@ -1,5 +1,6 @@
 @use "variables.scss" as *;
 
+
 .side-bar {
     min-width: 20rem;
     min-height: 100%;
@@ -50,5 +51,14 @@
     }
     ~div {
         color: red;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .laptop-name h4 {
+        color: white;
+    }
+    .deal-today h2 {
+        color: white;
     }
 }
