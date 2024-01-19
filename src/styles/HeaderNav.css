@@ -31,6 +31,7 @@ header.expanded {
 
 .hamburger-menu.open {
   height: 7.5rem;
+  margin: 0;
 }
 
 .bar {
