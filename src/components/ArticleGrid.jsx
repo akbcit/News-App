@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "../styles/ArticleGrid.css";
+import "../styles/ArticleGrid.scss";
 import ArticleCard from "./ArticleCard";
 
 function ArticleGrid({articles}){

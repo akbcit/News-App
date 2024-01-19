@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import "../styles/FeaturedArticle.css";
+import "../styles/FeaturedArticle.scss";
 
 function FeaturedArticle({ article }) {
   const [expandContent, setExpandContent] = useState(false);

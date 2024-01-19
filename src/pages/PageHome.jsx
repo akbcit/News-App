@@ -1,4 +1,4 @@
-import "../styles/PageHome.css";
+import "../styles/PageHome.scss";
 import ArticleGrid from "../components/ArticleGrid";
 import FeaturedArticle from "../components/FeaturedArticle";
 import articles from "../data/articles.json";
