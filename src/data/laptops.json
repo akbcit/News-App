@@ -153,5 +153,409 @@
     "config_price": "1000",
     "config_price_min": "990",
     "config_price_max": "1010"
+  },
+
+  {
+    "model_info": [
+        {
+            "id": 6164,
+            "noteb_name": "Chuwi GemiBook Pro (US)",
+            "name": "Chuwi GemiBook Pro",
+            "extra_name": "",
+            "submodel_info": [
+                "(US)"
+            ]
+        }
+    ],
+    "config_id": "2599726482433605592",
+    "model_resources": {
+        "thumbnail": "https://noteb.com/res/img/models/thumb/t_3825_1.jpg",
+        "image_1": "https://noteb.com/res/img/models/3825_1.jpg",
+        "image_2": "https://noteb.com/res/img/models/3825_2.jpg",
+        "image_3": "https://noteb.com/res/img/models/3825_3.jpg",
+        "image_4": "https://noteb.com/res/img/models/3825_4.jpg",
+        "official_link": "https://store.chuwi.com/products/gemibook-pro",
+        "official_link2": null,
+        "launch_date": "2022-02-15",
+        "primary_model": "6164"
+    },
+    "cpu": {
+        "prod": "Intel",
+        "model": "Celeron N5100",
+        "lithography": "10",
+        "cache": "4",
+        "base_speed": "1.10",
+        "boost_speed": "2.80",
+        "cores": "4",
+        "tdp": "6",
+        "other_info": "SSE4.2,AVX2.0,TBT 2.0,VT-d,VT-x,64-bit",
+        "rating": "12.2",
+        "integrated_video_id": "725",
+        "integrated_video": "Unknown"
+    },
+    "display": {
+        "size": "14.0",
+        "horizontal_resolution": "2160",
+        "vertical_resolution": "1440",
+        "type": "LED IPS",
+        "sRGB": "100",
+        "touch": "no",
+        "other_info": ""
+    },
+    "memory": {
+        "size": "8",
+        "speed": "2400",
+        "type": "DDR4"
+    },
+    "primary_storage": {
+        "model": "SSD M.2 SATA",
+        "cap": "256",
+        "rpm": null,
+        "read_speed": "325"
+    },
+    "secondary_storage": {
+        "model": "N/A",
+        "cap": "0",
+        "rpm": null,
+        "read_speed": null
+    },
+    "gpu": {
+        "prod": "Intel",
+        "model": "UHD Graphics 11th gen",
+        "architecture": "Jasper Lake",
+        "lithography": "10",
+        "shaders": "24",
+        "base_speed": "350",
+        "boost_speed": "800",
+        "shader_speed": "350",
+        "memory_speed": "2933",
+        "memory_bandwidth": "64",
+        "memory_size": "8192",
+        "memory_type": "DDR4",
+        "tdp": "0",
+        "other_info": "QuickSync,HDMI 1.4 (4096x2160 @ 60Hz), DP (7680x4320 @ 60Hz)",
+        "rating": "0.8"
+    },
+    "wireless_card": {
+        "model": "802.11 ac",
+        "speed": "867",
+        "other_info": "Bluetooth 4.x,dual band,2 x antennas"
+    },
+    "optical_drive": {
+        "type": "none",
+        "other_info": ""
+    },
+    "motherboard": {
+        "ram_slots": "soldered",
+        "lan_card": "none",
+        "storage_slots": "1 X M.2 SATA",
+        "other_info": "HD audio"
+    },
+    "chassis": {
+        "height_cm": "2.06",
+        "height_inch": "0.81",
+        "depth_cm": "22.95",
+        "depth_inch": "9.04",
+        "width_cm": "31.00",
+        "width_inch": "12.20",
+        "weight_kg": "1.50",
+        "weight_lb": "3.31",
+        "colors": "Space gray",
+        "build_materials": "Metal",
+        "peripheral_interfaces": "1 X USB-C 3.1,1 X USB 3.1",
+        "video_interfaces": null,
+        "webcam_mp": "0.920",
+        "keyboard_type": "Chiclet keyboard",
+        "charger": "24W (2A - 12VDC)",
+        "other_info": "2x1.5W speakers,Microphone array,Edgeless display"
+    },
+    "battery": {
+        "capacity": "38",
+        "cell_type": "Li-Pol",
+        "other_info": ""
+    },
+    "warranty": {
+        "years": "1",
+        "type_short": "Standard",
+        "type_long": "Standard Pick-up & Return"
+    },
+    "operating_system": "Windows Home 10.00",
+    "config_score": "26.46",
+    "config_price": "299",
+    "config_price_min": "295",
+    "config_price_max": "303",
+    "battery_life_raw": "7.9",
+    "battery_life_hours": "7:50",
+    "total_storage_capacity": "256"
+  },
+
+  {
+    "model_info": [
+        {
+            "id": 6470,
+            "noteb_name": "Dell Inspiron 15 3520  3520 (US)",
+            "name": "Dell Inspiron 15 3520",
+            "extra_name": " (3000 series Intel)",
+            "submodel_info": [
+                " 3520",
+                "(US)"
+            ]
+        }
+    ],
+    "config_id": "6612091074435119758",
+    "model_resources": {
+        "thumbnail": "https://noteb.com/res/img/models/thumb/t_4116_1.jpg",
+        "image_1": "https://noteb.com/res/img/models/4116_1.jpg",
+        "image_2": "https://noteb.com/res/img/models/4116_2.jpg",
+        "image_3": "https://noteb.com/res/img/models/4116_3.jpg",
+        "image_4": "https://noteb.com/res/img/models/4116_4.jpg",
+        "official_link": "https://www.dell.com/en-us/shop/dell-laptops/new-inspiron-15-laptop/spd/inspiron-15-3520-laptop/nn3520ftech",
+        "official_link2": null,
+        "launch_date": "2022-10-13",
+        "primary_model": "2795"
+    },
+    "cpu": {
+        "prod": "Intel",
+        "model": "i3-1215U",
+        "lithography": "7",
+        "cache": "10",
+        "base_speed": "3.30",
+        "boost_speed": "4.40",
+        "cores": "2",
+        "tdp": "55",
+        "other_info": "SSE4.2,AVX2.0,HT,64-bit,TBT 2.0,VT-x,VT-d,Intel GNA 3.0,IPU 6.0",
+        "rating": "1.0",
+        "integrated_video_id": "848",
+        "integrated_video": "Unknown"
+    },
+    "display": {
+        "size": "15.6",
+        "horizontal_resolution": "1920",
+        "vertical_resolution": "1080",
+        "type": "LED IPS",
+        "sRGB": "60",
+        "touch": "no",
+        "other_info": null
+    },
+    "memory": {
+        "size": "8",
+        "speed": "2666",
+        "type": "DDR4"
+    },
+    "primary_storage": {
+        "model": "SSD M.2 PCIe",
+        "cap": "512",
+        "rpm": null,
+        "read_speed": "900"
+    },
+    "secondary_storage": {
+        "model": "N/A",
+        "cap": "0",
+        "rpm": null,
+        "read_speed": null
+    },
+    "gpu": {
+        "prod": "Intel",
+        "model": "UHD Graphics 12th gen",
+        "architecture": "Alder Lake",
+        "lithography": "7",
+        "shaders": "512",
+        "base_speed": "300",
+        "boost_speed": "1100",
+        "shader_speed": "300",
+        "memory_speed": "2133",
+        "memory_bandwidth": "64",
+        "memory_size": "8192",
+        "memory_type": "DDR4",
+        "tdp": "0",
+        "other_info": "QuickSync,HDMI 1.4 (4096x2160 @ 60Hz), DP (7680x4320 @ 60Hz)",
+        "rating": "0.0"
+    },
+    "wireless_card": {
+        "model": "Wi-Fi 6 AX201",
+        "speed": "2400",
+        "other_info": "Bluetooth 5.0,dual band,2 x antennas"
+    },
+    "optical_drive": {
+        "type": "none",
+        "other_info": ""
+    },
+    "motherboard": {
+        "ram_slots": "2",
+        "lan_card": "none",
+        "storage_slots": " 1 X M.2 SATA/PCIe",
+        "other_info": "Realtek ALC3204 audio"
+    },
+    "chassis": {
+        "height_cm": "2.11",
+        "height_inch": "0.83",
+        "depth_cm": "23.56",
+        "depth_inch": "9.27",
+        "width_cm": "35.85",
+        "width_inch": "14.11",
+        "weight_kg": "1.65",
+        "weight_lb": "3.64",
+        "colors": "Black",
+        "build_materials": "Plastic",
+        "peripheral_interfaces": "2 X USB 3.1,1 X USB 2.0,SD card reader",
+        "video_interfaces": "1 X HDMI",
+        "webcam_mp": "0.920",
+        "keyboard_type": "Standard or Backlit Chiclet keyboard",
+        "charger": " 65W (3.34A - 19.5VDC)",
+        "other_info": " 2x2W speakers,Microphone array,Edgeless display,Fingerprint reader"
+    },
+    "battery": {
+        "capacity": "41",
+        "cell_type": "Li-Pol",
+        "other_info": ""
+    },
+    "warranty": {
+        "years": "1",
+        "type_short": "Standard",
+        "type_long": "Standard Pick-up & Return"
+    },
+    "operating_system": "Windows Home 11.00",
+    "config_score": "25.33",
+    "config_price": "296",
+    "config_price_min": "294",
+    "config_price_max": "299",
+    "battery_life_raw": "3.6",
+    "battery_life_hours": "3:35",
+    "total_storage_capacity": "512"
+  },
+
+  {
+    "model_info": [
+        {
+            "id": 4543,
+            "noteb_name": "HP ProBook 445  G7 (US)",
+            "name": "HP ProBook 445",
+            "extra_name": "",
+            "submodel_info": [
+                " G7",
+                "(US)"
+            ]
+        }
+    ],
+    "config_id": "9297062596437899264",
+    "model_resources": {
+        "thumbnail": "https://noteb.com/res/img/models/thumb/t_2651_1.jpg",
+        "image_1": "https://noteb.com/res/img/models/2651_1.jpg",
+        "image_2": "https://noteb.com/res/img/models/2651_2.jpg",
+        "image_3": "https://noteb.com/res/img/models/2651_3.jpg",
+        "image_4": "https://noteb.com/res/img/models/2651_4.jpg",
+        "official_link": "https://store.hp.com/us/en/ConfigureView?langId=-1&storeId=10151&catalogId=10051&catEntryId=3074457345619591819&urlLangId=&quantity=1",
+        "official_link2": "11",
+        "launch_date": "2020-05-06",
+        "primary_model": "4543"
+    },
+    "cpu": {
+        "prod": "Amd",
+        "model": "Ryzen 5 4500U",
+        "lithography": "7",
+        "cache": "8",
+        "base_speed": "2.30",
+        "boost_speed": "4.00",
+        "cores": "6",
+        "tdp": "15",
+        "other_info": "SSE4.2,AVX2.0,64-bit,AMD-V,AMD-Vi,AMD XFR,Precision Boost 2",
+        "rating": "28.4",
+        "integrated_video_id": "679",
+        "integrated_video": "Unknown"
+    },
+    "display": {
+        "size": "14.0",
+        "horizontal_resolution": "1920",
+        "vertical_resolution": "1080",
+        "type": "LED IPS",
+        "sRGB": "60",
+        "touch": "no",
+        "other_info": ""
+    },
+    "memory": {
+        "size": "16",
+        "speed": "3200",
+        "type": "DDR4"
+    },
+    "primary_storage": {
+        "model": "SSD M.2 PCIe",
+        "cap": "256",
+        "rpm": null,
+        "read_speed": "850"
+    },
+    "secondary_storage": {
+        "model": "N/A",
+        "cap": "0",
+        "rpm": null,
+        "read_speed": null
+    },
+    "gpu": {
+        "prod": "Amd",
+        "model": "Radeon RX Vega 6 (Renoir)",
+        "architecture": "GCN 1.4",
+        "lithography": "7",
+        "shaders": "384",
+        "base_speed": "1500",
+        "boost_speed": "1500",
+        "shader_speed": "1500",
+        "memory_speed": "1333",
+        "memory_bandwidth": "128",
+        "memory_size": "2048",
+        "memory_type": "DDR4",
+        "tdp": "15",
+        "other_info": "AMD FreeSync,AMD PowerTune,AMD ZeroCore,AMD Eyefinity,AMD TressFX,AMD TrueAudio",
+        "rating": "6.0"
+    },
+    "wireless_card": {
+        "model": "Wi-Fi 6 AX200",
+        "speed": "2400",
+        "other_info": "Bluetooth 5.0,dual band,2 x antennas"
+    },
+    "optical_drive": {
+        "type": "none",
+        "other_info": ""
+    },
+    "motherboard": {
+        "ram_slots": "2",
+        "lan_card": "OEM 10/100/1000",
+        "storage_slots": " 1 X M.2 SATA/PCIe, 1 X SATA 3.0",
+        "other_info": "HD audio"
+    },
+    "chassis": {
+        "height_cm": "1.79",
+        "height_inch": "0.70",
+        "depth_cm": "23.77",
+        "depth_inch": "9.36",
+        "width_cm": "32.42",
+        "width_inch": "12.76",
+        "weight_kg": "1.60",
+        "weight_lb": "3.53",
+        "colors": "Grey",
+        "build_materials": "Aluminium",
+        "peripheral_interfaces": "1 X USB-C 3.1,2 X USB 3.1,1 X USB 2.0,1 X LAN,SD card reader",
+        "video_interfaces": "1 X HDMI",
+        "webcam_mp": "0.000",
+        "keyboard_type": "Standard or Backlit Chiclet keyboard,Spill resistant",
+        "charger": " 65W (3.34A - 19.5VDC),45W (2.31A - 19.5VDC),USB-C optional charger",
+        "other_info": "2 x speakers,Microphone,Edgeless display,Fingerprint reader (optional),IR camera"
+    },
+    "battery": {
+        "capacity": "45",
+        "cell_type": "Li-Ion",
+        "other_info": ""
+    },
+    "warranty": {
+        "years": "1",
+        "type_short": "Standard",
+        "type_long": "Standard Pick-up & Return"
+    },
+    "operating_system": "Windows Pro 10.00",
+    "config_score": "35.91",
+    "config_price": "657",
+    "config_price_min": "651",
+    "config_price_max": "664",
+    "battery_life_raw": "8.2",
+    "battery_life_hours": "8:05",
+    "total_storage_capacity": "256"
   }
 ]
