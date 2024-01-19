@@ -8,6 +8,7 @@ header {
   transition: all 0.4s ease;
   box-shadow: 2px 1px 15px 0px #8f8f8f;
   z-index: 2;
+  max-width: 100%;
 }
 
 header.expanded {

@@ -10,6 +10,7 @@
   box-shadow: 2px 1px 15px 0px var(--box-shadow-color);
   padding: 10px;
   border-radius: 10px;
+  max-width: 100%;
 }
 
 .article-image-container {

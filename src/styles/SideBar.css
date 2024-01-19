@@ -9,6 +9,7 @@
     justify-content: flex-start;
     box-shadow: 2px 1px 15px 0px var(--box-shadow-color);
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .deal-today h2{
