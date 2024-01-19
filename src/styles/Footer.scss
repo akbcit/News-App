@@ -1,8 +1,8 @@
+@use "placeholders.scss" as *;
+
 footer{
-    display: flex;
-    flex-direction: column;
+    @extend %flex-column-center;
     justify-content: center;
-    align-items: center;
     margin-bottom: 10px;
     gap:0px;
     max-width: 100vw;

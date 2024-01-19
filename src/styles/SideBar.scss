@@ -1,5 +1,6 @@
 @use "variables.scss" as *;
 
+
 .side-bar {
     min-width: 20rem;
     min-height: 100%;
@@ -7,54 +8,57 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    box-shadow: 2px 1px 15px 0px $primary-color;
+    box-shadow: 2px 1px 15px 0px $box-shadow-color;
     border-radius: 10px;
     max-width: 100%;
    
 }
 
-.deal-today h2{
-color: black;
+.deal-today {
+    width: 100%;
+    color: $box-shadow-color;
+    h2 {
+        color: black;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-size: xx-large;
+    }
 }
 
 .laptop-item {
     width: 100%;
     margin-top: 20px;
     border-bottom: 2px solid rgb(221, 213, 213);
+    img {
+        width: 80%;
+        overflow: hidden;
+        transition: all 0.4s ease-in;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
 }
 
-.laptop-item img {
-    width: 80%;
-    overflow: hidden;
-    transition: all 0.4s ease-in;
+.laptop-name  {
+    h4 {
+        color: black;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        &:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+    }
+    ~div {
+        color: red;
+    }
 }
 
-.laptop-item img:hover {
-    transform: scale(1.1);
-}
-
-.deal-today {
-    width: 100%;
-    color: $box-shadow-color;
-}
-
-.laptop-name h4 {
-    color: black;
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
-
-.deal-today h2 {
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-size: xx-large;
-}
-
-.laptop-name h4:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-.laptop-name~div {
-    color: red;
+@media (prefers-color-scheme: dark) {
+    .laptop-name h4 {
+        color: white;
+    }
+    .deal-today h2 {
+        color: white;
+    }
 }
