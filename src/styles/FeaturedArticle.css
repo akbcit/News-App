@@ -97,6 +97,10 @@
   transition: height 0.5s linear;
 }
 
+.article-details.visible :first-child {
+  margin-right: 1rem;
+}
+
 @media (min-width: 1024px) {
   .featured-article {
     height: 35rem;

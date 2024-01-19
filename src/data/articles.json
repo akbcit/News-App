@@ -23,7 +23,7 @@
         "article_excerpt": "Discover how Node.js revolutionizes backend development with its non-blocking, event-driven architecture, making it ideal for building efficient, scalable applications.",
         "article_details": {
             "article_author": "By Kenny Qiu",
-            "article_date": "Published On: 2024-01-15"
+            "article_date": "Published On: 2024-01-16"
         },
         "article_tags": [
             "Node.js",
@@ -39,7 +39,7 @@
         "article_excerpt": "Uncover advanced CSS techniques for creating visually appealing, responsive designs. Learn how to leverage CSS3 features for dynamic, fluid layouts.",
         "article_details": {
             "article_author": "By Carissa Ward",
-            "article_date": "Published On: 2024-01-15"
+            "article_date": "Published On: 2024-01-17"
         },
         "article_tags": [
             "CSS",
@@ -49,122 +49,130 @@
     },
     {
         "image_path": "images/image_3.jpg",
-        "image_desc": "Image for article titled 'Elevating Web Experiences with Angular'",
+        "image_desc": "Image for article titled 'Optimizing Performance in React Applications'",
         "article_category": "Frontend Development",
-        "article_headline": "Elevating Web Experiences with Angular",
-        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "article_headline": "Optimizing Performance in React Applications",
+        "article_excerpt": "Delve into strategies for enhancing the performance of React applications. Learn how to optimize rendering, reduce bundle size, and implement lazy loading.",
         "article_details": {
-            "article_author": "By Placeholder Author",
+            "article_author": "By Kenny Qiu",
             "article_date": "Published On: 2024-01-15"
         },
         "article_tags": [
-            "Angular",
-            "Web Framework"
+            "React",
+            "Frontend",
+            "Performance"
         ]
     },
     {
         "image_path": "images/image_4.jpg",
-        "image_desc": "Image for article titled 'Vue.js: Crafting Interactive UIs with Ease'",
-        "article_category": "Frontend Development",
-        "article_headline": "Vue.js: Crafting Interactive UIs with Ease",
-        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image_desc": "Image for article titled 'Building Scalable APIs with Express.js'",
+        "article_category": "Backend Development",
+        "article_headline": "Building Scalable APIs with Express.js",
+        "article_excerpt": "Explore the power of Express.js in creating scalable and robust APIs. Learn best practices for routing, middleware usage, and error handling.",
         "article_details": {
-            "article_author": "By Placeholder Author",
-            "article_date": "Published On: 2024-01-15"
+            "article_author": "By Carissa Ward",
+            "article_date": "Published On: 2024-01-16"
         },
         "article_tags": [
-            "Vue.js",
-            "JavaScript"
+            "Express.js",
+            "Backend",
+            "APIs"
         ]
     },
     {
         "image_path": "images/image_5.jpg",
-        "image_desc": "Image for article titled 'Simplifying Data Management with MongoDB'",
-        "article_category": "Database Technology",
-        "article_headline": "Simplifying Data Management with MongoDB",
-        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image_desc": "Image for article titled 'The Art of Color in Web Design'",
+        "article_category": "Web Design",
+        "article_headline": "The Art of Color in Web Design",
+        "article_excerpt": "Discover the impact of color in web design. Learn how to choose palettes, create harmonious schemes, and use color psychology to enhance user experience.",
         "article_details": {
-            "article_author": "By Placeholder Author",
-            "article_date": "Published On: 2024-01-15"
+            "article_author": "By Aditya Kumar",
+            "article_date": "Published On: 2024-01-18"
         },
         "article_tags": [
             "MongoDB",
-            "NoSQL"
+            "NoSQL",
+            "Web Design"
         ]
     },
     {
         "image_path": "images/image_6.jpg",
-        "image_desc": "Image for article titled 'Building Dynamic Websites with jQuery'",
-        "article_category": "Web Development",
-        "article_headline": "Building Dynamic Websites with jQuery",
-        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image_desc": "Image for article titled 'Effortless Styling with Bootstrap Framework'",
+        "article_category": "Web Design",
+        "article_headline": "Effortless Styling with Bootstrap Framework",
+        "article_excerpt": "Discover the power of Bootstrap for rapid and responsive web development. Learn how to leverage its pre-built components and grid system to streamline styling.",
         "article_details": {
-            "article_author": "By Placeholder Author",
+            "article_author": "By Aditya Kumar",
             "article_date": "Published On: 2024-01-15"
         },
         "article_tags": [
-            "jQuery",
-            "JavaScript"
+            "Bootstrap",
+            "Web Design",
+            "Responsive Design"
         ]
     },
     {
         "image_path": "images/image_7.jpg",
-        "image_desc": "Image for article titled 'Responsive Design Magic with SASS'",
-        "article_category": "Web Design",
-        "article_headline": "Responsive Design Magic with SASS",
-        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image_desc": "Image for article titled 'Deep Dive into C#: Advanced Programming Techniques'",
+        "article_category": "Backend Development",
+        "article_headline": "Deep Dive into C#: Advanced Programming Techniques",
+        "article_excerpt": "Explore advanced programming techniques in C# to elevate your development skills. Learn about LINQ, async/await, and other features for efficient coding.",
         "article_details": {
-            "article_author": "By Placeholder Author",
-            "article_date": "Published On: 2024-01-15"
+            "article_author": "By Carissa Ward",
+            "article_date": "Published On: 2024-01-16"
         },
         "article_tags": [
-            "SASS",
-            "CSS Preprocessor"
+            "C#",
+            "Backend",
+            "Advanced Techniques"
         ]
     },
     {
         "image_path": "images/image_8.jpg",
-        "image_desc": "Image for article titled 'HTML5: The Backbone of Modern Web Markup'",
-        "article_category": "Web Development",
-        "article_headline": "HTML5: The Backbone of Modern Web Markup",
-        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image_desc": "Image for article titled 'Mastering AWS: Cloud Solutions for Scalable Applications'",
+        "article_category": "Cloud Computing",
+        "article_headline": "Mastering AWS: Cloud Solutions for Scalable Applications",
+        "article_excerpt": "Unlock the potential of Amazon Web Services (AWS) for building scalable and resilient cloud applications. Explore key services and best practices.",
         "article_details": {
-            "article_author": "By Placeholder Author",
+            "article_author": "By Kenny Qiu",
             "article_date": "Published On: 2024-01-15"
         },
         "article_tags": [
-            "HTML5",
-            "Markup Language"
+            "AWS",
+            "Cloud Computing",
+            "Scalability"
         ]
     },
     {
         "image_path": "images/image_9.jpg",
-        "image_desc": "Image for article titled 'Unlocking Advanced Features in CSS3'",
-        "article_category": "Web Design",
-        "article_headline": "Unlocking Advanced Features in CSS3",
-        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image_desc": "Image for article titled 'Designing RESTful APIs: Best Practices and Patterns'",
+        "article_category": "Backend Development",
+        "article_headline": "Designing RESTful APIs: Best Practices and Patterns",
+        "article_excerpt": "Learn the principles of designing RESTful APIs for optimal performance and usability. Explore RESTful architecture, HTTP methods, and error handling.",
         "article_details": {
-            "article_author": "By Placeholder Author",
-            "article_date": "Published On: 2024-01-15"
+            "article_author": "By Carissa Ward",
+            "article_date": "Published On: 2024-01-18"
         },
         "article_tags": [
-            "CSS3",
-            "Styling"
+            "REST APIs",
+            "Backend",
+            "Best Practices"
         ]
     },
     {
         "image_path": "images/image_10.jpg",
-        "image_desc": "Image for article titled 'The Future of Web Apps with Progressive Web Apps (PWA)'",
-        "article_category": "Web Development",
-        "article_headline": "The Future of Web Apps with Progressive Web Apps (PWA)",
-        "article_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image_desc": "Image for article titled 'Mastering CSS Grid Layout'",
+        "article_category": "Web Design",
+        "article_headline": "Mastering CSS Grid Layout",
+        "article_excerpt": "Delve into the power of CSS Grid Layout and learn how to create complex, responsive layouts with ease. Explore features like grid areas, template areas, and more.",
         "article_details": {
-            "article_author": "By Placeholder Author",
-            "article_date": "Published On: 2024-01-15"
+            "article_author": "By Kenny Qiu",
+            "article_date": "Published On: 2024-01-16"
         },
         "article_tags": [
-            "PWA",
-            "Web Apps"
+            "CSS Grid",
+            "Web Design",
+            "Responsive Layouts"
         ]
     }
 ]

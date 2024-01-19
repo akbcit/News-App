@@ -79,37 +79,27 @@ const HeaderNav = () => {
         <ul>
           <li className="main-navigation-li">
             <a className="main-navigation-a" href="#0">
-              News
+              Breaking News
             </a>
           </li>
           <li className="main-navigation-li">
             <a className="main-navigation-a" href="#0">
-              Policy
+              Front-End
             </a>
           </li>
           <li className="main-navigation-li">
             <a className="main-navigation-a" href="#0">
-              Business
+              Back-End
             </a>
           </li>
           <li className="main-navigation-li">
             <a className="main-navigation-a" href="#0">
-              Health
+              Web Design
             </a>
           </li>
           <li className="main-navigation-li">
             <a className="main-navigation-a" href="#0">
-              Opinion
-            </a>
-          </li>
-          <li className="main-navigation-li">
-            <a className="main-navigation-a" href="#0">
-              Events
-            </a>
-          </li>
-          <li className="main-navigation-li">
-            <a className="main-navigation-a" href="#0">
-              Jobs
+              Cloud
             </a>
           </li>
         </ul>
