@@ -1,8 +1,7 @@
-import "animate.css"
-
+/* eslint-disable react/prop-types */
 function LaptopItem({laptop, laptopNum}) {
     return (
-        <div className="laptop-item animate__animated animate__fadeInRight">
+        <div className="laptop-item">
             <img src={laptop.model_resources.thumbnail}
                 alt={laptop.model_info.name} />
             <div className="laptop-name">
