@@ -28,13 +28,20 @@
 }
 
 .laptop-name h4 {
+    color: black;
     margin-top: 15px;
     margin-bottom: 0px;
 }
 
 .deal-today h2 {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    font-size: xx-large;
+}
+
+.laptop-name h4:hover {
+    color: blue;
+    text-decoration: underline;
 }
 
 .laptop-name ~ div {
