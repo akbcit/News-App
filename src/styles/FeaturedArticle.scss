@@ -1,11 +1,11 @@
-@use "variables.scss";
+@use "variables.scss" as *;
 
 .featured-article {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  box-shadow: 2px 1px 15px 0px var(--box-shadow-color);
+  box-shadow: 2px 1px 15px 0px $box-shadow-color;
   border-radius: 0 0 10px 10px;
   overflow: hidden;
   height: 27rem;
@@ -13,7 +13,7 @@
   background-position: center center;
   background-size: cover;
   color: white;
-  transition: var(--base-transition);
+  transition: $base-transition;
   max-width: 100vw;
   min-width: 100%;
 }

@@ -1,4 +1,4 @@
-@use "variables.scss";
+@use "variables.scss" as *;
 
 .article-card {
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
   padding: 0;
   gap: 10px;
-  box-shadow: 2px 1px 15px 0px var(--box-shadow-color);
+  box-shadow: 2px 1px 15px 0px $box-shadow-color;
   padding: 10px;
   border-radius: 10px;
   max-width: 100%;
@@ -28,7 +28,7 @@
 
 .article-category {
   margin-right: auto;
-  background-color: var(--primary-color);
+  background-color: $primary-color;
   color: white;
   z-index: 1;
   font-weight: 600;
