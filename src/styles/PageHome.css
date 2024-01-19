@@ -1,8 +1,11 @@
 #articles-section{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap:25px;
     max-width: 100%;
+    padding: 2px;
+    max-width: 100vw;
 }
 
 /* Hide the hamburger menu when screen width is greater than or equal to 1024px */
