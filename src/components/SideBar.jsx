@@ -1,4 +1,4 @@
-import "../styles/SideBar.css";
+import "../styles/SideBar.scss";
 import LaptopItem from "./LaptopItem";
 
 function SideBar({ laptops }) {

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "../styles/ArticleCard.css";
+import "../styles/ArticleCard.scss";
 
 function ArticleCard({ article }, { articleNum }) {
   // Inline style to set the CSS custom property

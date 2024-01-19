@@ -1,6 +1,6 @@
 import packageJson from '../../package.json';
 
-import "../styles/Footer.css";
+import "../styles/Footer.scss";
 
 function Footer(){
     const currentYear = new Date().getFullYear();

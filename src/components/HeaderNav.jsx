@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../styles/HeaderNav.css";
+import "../styles/HeaderNav.scss";
 
 const HeaderNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

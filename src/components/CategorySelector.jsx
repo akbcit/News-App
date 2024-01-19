@@ -1,4 +1,4 @@
-import "../styles/CategorySelector.css";
+import "../styles/CategorySelector.scss";
 
 function CategorySelector({categories}){
     
