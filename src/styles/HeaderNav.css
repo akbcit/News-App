@@ -26,6 +26,7 @@ header.expanded {
   border-radius: 0;
   display: flex;
   justify-content: center;
+  margin-left: 3px;
 }
 
 .hamburger-menu.open {
