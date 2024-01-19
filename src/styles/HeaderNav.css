@@ -58,13 +58,17 @@ header.expanded {
 
 .logo {
   margin: 0.5rem;
-  padding-right: 3rem;
   color: white;
-
+display: flex;
+align-items: center;
 }
 
 .logo.hide {
   display: none;
+}
+
+.logo img{
+  width: 20rem;
 }
 
 .sr-only {
