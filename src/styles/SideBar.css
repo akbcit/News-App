@@ -1,6 +1,6 @@
 @import "variables.css";
 
-.side-bar{
+.side-bar {
     min-width: 20rem;
     min-height: 100%;
     display: flex;
@@ -9,6 +9,10 @@
     justify-content: flex-start;
     box-shadow: 2px 1px 15px 0px var(--box-shadow-color);
     border-radius: 10px;
+}
+
+.deal-today h2{
+color: black;
 }
 
 .laptop-item {
@@ -20,6 +24,11 @@
 .laptop-item img {
     width: 80%;
     overflow: hidden;
+    transition: all 0.4s ease-in;
+}
+
+.laptop-item img:hover {
+    transform: scale(1.1);
 }
 
 .deal-today {
@@ -44,6 +53,6 @@
     text-decoration: underline;
 }
 
-.laptop-name ~ div {
+.laptop-name~div {
     color: red;
 }
