@@ -1,12 +1,14 @@
+@use 'variables' as *;
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: #007aff;
+  background-color: $primary-color;
   height: 6rem;
-  transition: all 0.4s ease;
-  box-shadow: 2px 1px 15px 0px #8f8f8f;
+  transition: $base-transition;
+  box-shadow: 2px 1px 15px 0px $box-shadow-color;
   z-index: 2;
   max-width: 100vw;
 }
@@ -19,7 +21,7 @@ header.expanded {
 .hamburger-menu {
   width: 2.75rem;
   height: 2.5rem;
-  background-color: #007aff;
+  background-color: $primary-color;
   border: none;
   cursor: pointer;
   padding: 0;
@@ -87,7 +89,7 @@ align-items: center;
 
 nav.show {
   width: 100%;
-  background-color: #007aff;
+  background-color: $primary-color;
 }
 
 nav ul {
