@@ -10,7 +10,6 @@
   border-radius: 0 0 10px 10px;
   overflow: hidden;
   height: 27rem;
-  max-width: 100vw;
   background-image: var(--articleBgImage);
   background-position: center center;
   background-size: cover;
@@ -35,7 +34,7 @@
 }
 
 .featured-article-content.half {
-  height: 30%;
+  height: auto;
 }
 
 .featured-article-content .article-headline {
