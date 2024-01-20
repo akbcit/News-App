@@ -1,11 +1,12 @@
+// Importing SCSS variables and placeholders globally
 @use "variables" as *;
 @use "placeholders" as *;
 
-
 .article-card {
+  // Using an extend directive to inherit styles from a placeholder selector
   @extend %flex-column-center;
   gap: 10px;
-  box-shadow: 2px 1px 15px 0px $box-shadow-color;
+  box-shadow: 2px 1px 15px 0px $box-shadow-color; // Using a variable for the box-shadow color
   padding: 10px;
   border-radius: 10px;
   max-width: 100%;
@@ -24,14 +25,15 @@
 
 .article-category {
   margin-right: auto;
-  background-color: $primary-color;
-  color: $secondary-color;
+  background-color: $primary-color; // Using a variable for background color
+  color: $secondary-color; // Using a variable for text color
   z-index: 1;
   font-weight: 600;
   text-transform: uppercase;
   padding: 0.25rem 0.5rem;
   width: auto;
 
+  // Media query in SCSS for responsive design
   @media (max-width: 700px) {
     font-weight: 400;
     font-size: 12px;
@@ -60,6 +62,7 @@ div[class$="details"] {
   font-weight: 700;
   color: rgb(119, 119, 119);
 
+  // Using media query in SCSS for smaller screens
   @media (max-width: 400px) {
     font-size: 12px;
   }
@@ -81,6 +84,7 @@ div[class$="details"] {
   border-radius: 5px;
 }
 
+// Media query outside of a selector for global style changes
 @media (max-width: 700px) {
   .article-excerpt {
     font-weight: 400;

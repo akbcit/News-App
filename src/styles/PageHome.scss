@@ -1,16 +1,14 @@
-#articles-section{
+#articles-section {
     display: flex;
     flex-direction: column;
-    gap:25px;
+    gap: 25px;
     max-width: 100%;
     margin: 5px;
-}
-
-/* Hide the hamburger menu when screen width is greater than or equal to 1024px */
-@media (min-width: 1024px) {
-    #articles-section{
+    // When screen width is greater than or equal to 1024px, 
+    // change the layout to a row direction with a gap of 25px
+    @media (min-width: 1024px) {
         display: flex;
         flex-direction: row;
-        gap:25px;
+        gap: 25px;
     }
-  }
+}

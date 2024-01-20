@@ -4,7 +4,6 @@ import "../styles/Footer.scss";
 
 function Footer(){
     const currentYear = new Date().getFullYear();
-
     const contributors = packageJson.contributors || [];
     const contributorNames = contributors.join(', ');
     console.log(contributorNames);

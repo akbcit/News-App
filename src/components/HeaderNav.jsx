@@ -2,65 +2,68 @@ import { useState, useEffect } from "react";
 import "../styles/HeaderNav.scss";
 
 const HeaderNav = () => {
+  // State for handling the menu open/close status
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  // state variables to pronounce and hide header on two scrolls
+  // State variables for header scroll behavior
   const [isScrolled, setIsScrolled] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
 
-  // Effect to handle scroll behaviour
+  // Handle scroll behavior to change header appearance
   useEffect(() => {
     const handleScroll = () => {
-        setIsScrolled(window.scrollY > 50);
-        setIsHidden(window.scrollY > 150);
+      // Update scroll state based on scroll position
+      setIsScrolled(window.scrollY > 50);
+      setIsHidden(window.scrollY > 150);
     };
-
-    window.addEventListener('scroll', handleScroll);
-
+    // Listen for scroll events
+    window.addEventListener("scroll", handleScroll);
+    // Cleanup listener on component unmount
     return () => {
-        window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
-  }, []); // No dependencies to ensure it runs only once on mount
+  }, []); // Empty dependency array to run only once
 
-  // Effect to handle window resize and close the menu
+  // Handle window resize to auto-close the menu on larger screens
   useEffect(() => {
     const handleResize = () => {
-        if (isMenuOpen && window.innerWidth >= 1024) {
-            setIsMenuOpen(false);
-        }
+      if (isMenuOpen && window.innerWidth >= 1024) {
+        setIsMenuOpen(false);
+      }
     };
-
-    window.addEventListener('resize', handleResize);
-
+    // Listen for resize events
+    window.addEventListener("resize", handleResize);
+    // Cleanup listener on component unmount
     return () => {
-        window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, [isMenuOpen]);
 
-  // Effect to manage the no-scroll class on body
+  // Effect for toggling 'no-scroll' class on body when menu is open
   useEffect(() => {
     if (isMenuOpen) {
-        document.body.classList.add('no-scroll');
+      document.body.classList.add("no-scroll");
     } else {
-        document.body.classList.remove('no-scroll');
+      document.body.classList.remove("no-scroll");
     }
-
+    // Cleanup to remove class when component unmounts
     return () => {
-        document.body.classList.remove('no-scroll');
+      document.body.classList.remove("no-scroll");
     };
   }, [isMenuOpen]);
-
+  // Function to toggle the menu open/close state
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
     <header
+      // Apply dynamic classes based on state
       className={`${isMenuOpen ? "expanded" : ""}${
         isScrolled ? " with-border" : ""
       }${isHidden ? " hidden" : ""}`}
     >
       <button
+        // Hamburger menu button toggle
         className={`hamburger-menu ${isMenuOpen ? "open" : ""}`}
         onClick={toggleMenu}
       >
@@ -77,6 +80,7 @@ const HeaderNav = () => {
       </a>
       <nav id="main-navigation" className={isMenuOpen ? "show" : ""}>
         <ul>
+          {/* Navigation links */}
           <li className="main-navigation-li">
             <a className="main-navigation-a" href="#0">
               Breaking News

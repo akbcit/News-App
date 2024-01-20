@@ -1,27 +1,31 @@
+// Importing SCSS variables and placeholders globally
 @use "variables" as *;
 @use "placeholders" as *;
 
 .featured-article {
+  // Extending a shared flex column center style from placeholders
   @extend %flex-column-center;
   justify-content: flex-end;
-  box-shadow: 2px 1px 15px 0px $box-shadow-color;
+  box-shadow: 2px 1px 15px 0px $box-shadow-color; // Using a variable for the box-shadow color
   border-radius: 0 0 10px 10px;
   overflow: hidden;
   height: 27rem;
   background-image: var(--articleBgImage);
   background-position: center center;
   background-size: cover;
-  color: $secondary-color;
-  transition: $base-transition;
+  color: $secondary-color; // Using a variable for text color
+  transition: $base-transition; // Using a variable for transition
   max-width: 100vw;
   min-width: 100%;
 
+  // Media query using SCSS syntax for responsive design
   @media (min-width: 1024px) {
     height: 35rem;
   }
 
   &-content {
     background-color: rgba(41, 41, 41, 0.8);
+    // Extending the same shared style as the parent
     @extend %flex-column-center;
     justify-content: center;
     padding: 10px;
@@ -29,19 +33,23 @@
     transition: height 0.5s ease-out;
     overflow: hidden;
 
+    // SCSS nested selector with class modifier
     &.full {
       height: 50%;
       max-height: 100%;
     }
 
+    // Another nested selector with class modifier
     &.half {
       height: auto;
       max-height: 50%;
     }
 
+    // Nested selector targeting a specific child
     .article-headline {
       text-align: center;
 
+      // Responsive design media query within a nested selector
       @media (max-width: 700px) {
         font-size: large;
       }
@@ -51,6 +59,7 @@
       text-align: left;
       margin-bottom: 10px;
 
+      // Media query nested within a nested selector
       @media (min-width: 1024px) {
         font-size: large;
       }
@@ -58,8 +67,9 @@
 
     .article-details {
       margin-bottom: 10px;
-      color: $secondary-color;
+      color: $secondary-color; // Using a variable for color
 
+      // Nested selector with pseudo-class
       &.visible :first-child {
         margin-right: 1rem;
       }
@@ -84,6 +94,7 @@
     height: 30px;
     transition: transform 0.3s ease;
 
+    // Nested selectors with class modifiers for style changes
     &.up {
       transform: rotate(0deg);
     }
@@ -104,7 +115,7 @@
     transition: height 0.5s linear;
   }
 }
-
+// Media query outside of a selector for global style changes
 @media (max-width: 400px) {
   .featured-article-content.full {
     height: 55%;
