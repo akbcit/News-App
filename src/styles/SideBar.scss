@@ -56,9 +56,9 @@
 
 @media (prefers-color-scheme: dark) {
     .laptop-name h4 {
-        color: white;
+        color: $secondary-color;
     }
     .deal-today h2 {
-        color: white;
+        color: $secondary-color;
     }
 }

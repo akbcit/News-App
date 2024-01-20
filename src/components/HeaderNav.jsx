@@ -84,12 +84,12 @@ const HeaderNav = () => {
           </li>
           <li className="main-navigation-li">
             <a className="main-navigation-a" href="#0">
-              Front-End
+              Frontend
             </a>
           </li>
           <li className="main-navigation-li">
             <a className="main-navigation-a" href="#0">
-              Back-End
+              Backend
             </a>
           </li>
           <li className="main-navigation-li">
