@@ -54,11 +54,31 @@
     }
 }
 
+#view-more {
+    display: none;
+}
+
 @media (prefers-color-scheme: dark) {
     .laptop-name h4 {
         color: $secondary-color;
     }
     .deal-today h2 {
         color: $secondary-color;
+    }
+}
+
+@media (min-width: 1024px) {
+    #view-more {
+        display: block;
+        width: 75%;
+        margin-top: 1.5rem;
+    
+        a {
+            color: #0000ff;
+
+            &:hover {
+                color: #777777;
+            }
+        }
     }
 }

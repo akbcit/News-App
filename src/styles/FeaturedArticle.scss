@@ -1,5 +1,5 @@
-@use "variables.scss" as *;
-@use "placeholders.scss" as *;
+@use "variables" as *;
+@use "placeholders" as *;
 
 .featured-article {
   @extend %flex-column-center;
