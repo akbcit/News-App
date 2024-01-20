@@ -2,7 +2,7 @@
 import "../styles/ArticleCard.scss";
 
 function ArticleCard({ article }, { articleNum }) {
-  // Inline style to set the CSS custom property
+  // inline style to set the CSS custom property
   const figureStyle = {
     "--articleBgImage": `url(${article.image_path})`,
   };

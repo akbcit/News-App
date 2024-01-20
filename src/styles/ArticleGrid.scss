@@ -1,21 +1,20 @@
+// Defining SCSS variables for consistent styling
+$grid-font-family: 'Roboto', sans-serif;
+$grid-gap: 25px;
+$grid-max-width: 99vw;
+
 .article-grid {
-   display: grid;
-   grid-template-columns: 1;
-   font-family: 'Roboto', sans-serif;
-   column-gap: 25px;
-   row-gap: 25px;
-   max-width: 99vw;
+  // Using CSS Grid layout
+  display: grid;
+  grid-template-columns: 1fr;  
+  font-family: $grid-font-family; // Applying variable for font family
+  column-gap: $grid-gap;  
+  row-gap: $grid-gap;  
+  max-width: $grid-max-width;  
 }
-
+// Media query leveraging SCSS features for responsive design
 @media (min-width: 768px) {
-   .article-grid {
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-       font-family: 'Roboto', sans-serif;
-       column-gap: 25px;
-       row-gap: 25px;
-    }
- }
-  
-  
-
+  .article-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}

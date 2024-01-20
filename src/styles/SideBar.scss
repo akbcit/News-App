@@ -1,5 +1,5 @@
+// Importing SCSS variables from a separate file for consistent styling
 @use "variables.scss" as *;
-
 
 .side-bar {
     min-width: 20rem;
@@ -8,15 +8,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    box-shadow: 2px 1px 15px 0px $box-shadow-color;
+    box-shadow: 2px 1px 15px 0px $box-shadow-color; // Using a variable for the box-shadow color
     border-radius: 10px;
     max-width: 100%;
-   
 }
 
 .deal-today {
     width: 100%;
-    color: $box-shadow-color;
+    color: $box-shadow-color; // Using a variable for text color
+
+    // Nested selector for styling <h2> within .deal-today
     h2 {
         color: black;
         margin-top: 15px;
@@ -29,26 +30,36 @@
     width: 100%;
     margin-top: 20px;
     border-bottom: 2px solid rgb(221, 213, 213);
+
+    // Nested selector for <img> within .laptop-item
     img {
         width: 80%;
         overflow: hidden;
         transition: all 0.4s ease-in;
-        &:hover{
+
+        // Pseudo-class &:hover for hover effect on <img>
+        &:hover {
             transform: scale(1.1);
         }
     }
 }
 
-.laptop-name  {
+.laptop-name {
+
+    // Nested selector for <h4> within .laptop-name
     h4 {
         color: black;
         margin-top: 15px;
         margin-bottom: 0px;
+
+        // Pseudo-class &:hover for hover effect on <h4>
         &:hover {
             color: blue;
             text-decoration: underline;
         }
     }
+
+    // Adjacent sibling combinator '~' used to style a div following .laptop-name
     ~div {
         color: red;
     }
@@ -58,24 +69,29 @@
     display: none;
 }
 
+// Media query for dark color scheme preference
 @media (prefers-color-scheme: dark) {
     .laptop-name h4 {
-        color: $secondary-color;
+        color: $secondary-color; // Using variable for text color in dark mode
     }
+
     .deal-today h2 {
-        color: $secondary-color;
+        color: $secondary-color; // Using variable for text color in dark mode
     }
 }
 
+// Media query for larger screens (min-width: 1024px)
 @media (min-width: 1024px) {
     #view-more {
         display: block;
         width: 75%;
         margin-top: 1.5rem;
-    
+
+        // Nested selector for <a> within #view-more
         a {
             color: #0000ff;
 
+            // Pseudo-class &:hover for hover effect on <a>
             &:hover {
                 color: #777777;
             }
