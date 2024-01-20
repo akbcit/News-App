@@ -22,7 +22,7 @@ function FeaturedArticle({ article }) {
           <img
             alt="expand-icon"
             className={`expand-icon ${!expandContent ? "up" : "down"}`}
-            src="../../public/images/expand.png"
+            src="/images/expand.png"
             onClick={toggleContent}
           ></img>
         </div>
